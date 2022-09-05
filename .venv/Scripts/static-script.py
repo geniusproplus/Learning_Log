@@ -1,4 +1,4 @@
-#!C:\Users\genius\Desktop\learning_log\.venv\Scripts\python.exe
+#!E:\0-Projects\Projects\learning_log\.venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'static3==0.7.0','console_scripts','static'
 import re
 import sys
