@@ -137,3 +137,5 @@ LOGIN_URL = '/users/login/'
 BOOTSTRAP3 = { 
  'include_jquery': True, 
  } 
+
+CSRF_TRUSTED_ORIGINS = ['https://your-domain.com']
