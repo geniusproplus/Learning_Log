@@ -18,13 +18,13 @@
 
 - 在settings.py文件中设置debug和allowed_posts
 
-### 表单处理有问题 （解决）
+### 安全验证问题处理有问题 （解决了一半）
 
 - Forbidden (403) CSRF verification failed. Request aborted.
 
 - 可能是从第20.2.6小节的内容没有做  《Python编程：从入门到实践》P422-P435 （托管方案是Azure不是书中的Heroku，这个猜测不对）
 
-    或者是因为sqlite3的原因，需要连接azure数据库，可以看看这个playlist：https://www.youtube.com/watch?v=Z4gLolNTM5I（数据库连接）（这个猜测暂未证明）
+    （这个猜测暂未证明）或者是因为sqlite3的原因，需要连接azure数据库，可以看看这个playlist：https://www.youtube.com/watch?v=Z4gLolNTM5I（数据库连接）
 
 
 - 解决方案：注释掉settings.py中的MIDDLEWARE列表中的'django.middleware.csrf.CsrfViewMiddleware'
