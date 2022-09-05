@@ -12,7 +12,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',                      
     'django.middleware.common.CommonMiddleware',                                 
-    'django.middleware.csrf.CsrfViewMiddleware',   #登录时出现：CSRF verification failed. Request aborted.  #网络解决方案，注释掉这一行                             
+    'django.middleware.csrf.CsrfViewMiddleware',                               
     'django.contrib.auth.middleware.AuthenticationMiddleware',                   
     'django.contrib.messages.middleware.MessageMiddleware',                      
     'django.middleware.clickjacking.XFrameOptionsMiddleware',                    
