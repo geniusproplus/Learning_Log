@@ -138,4 +138,4 @@ BOOTSTRAP3 = {
  'include_jquery': True, 
  } 
 
-CSRF_TRUSTED_ORIGINS = ['https://your-domain.com']
+CSRF_TRUSTED_ORIGINS = ['https://learning-log-django.azurewebsites.net/']
