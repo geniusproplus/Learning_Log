@@ -1,3 +1,7 @@
 Django
 whitenoise
 django-bootstrap3
+dj-database-url
+dj-static
+gunicorn
+static3
