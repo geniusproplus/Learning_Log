@@ -1,5 +1,11 @@
 # learning_log
 
+## 部署配置：
+
+- Azure
+
+- Linux，python3.9， 东亚服务器， sqlite3数据库（以后配置Azure的postgre_SQL数据库）
+
 ## 1. Azure部署Django网页系列视频
 
 - https://www.youtube.com/playlist?list=PLlrxD0HtieHjHCQ0JB_RrhbQp_9ccJztr
