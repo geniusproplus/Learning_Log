@@ -2,17 +2,17 @@
 
 {% block header %}
  <div class='jumbotron'> 
-    <h1>记录你的学习情况</h1> 
+    <h2>记录你的学习情况, 做一份出色的学习日志</h2> 
  </div> 
 {% endblock header %} 
 
 {% block content %} 
 
-    <h2> 
+    <h4> 
         <a href="{% url 'users:register' %}">注册一个帐户</a> 以制作您自己的学习日志，并列出您正在学习的主题。 
-    </h2> 
-    <h2> 
+    </h4> 
+    <h4> 
         每当您学习有关某个主题的新知识时，请创建一个学习子主题来总结您所学的内容。
-    </h2>
+    </h4>
 
 {% endblock content %}
